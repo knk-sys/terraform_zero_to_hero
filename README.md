@@ -31,7 +31,7 @@ Terraform Learning from zero to hero and this labs were guided by Sandbox Yangon
    - Create a default route table for private subnets, which won't have direct internet access
 
 
-#Summary
+# Summary
 This Terraform configuration sets up a VPC with public and private subnets across multiple availability zones. 
 The public subnets are connected to an internet gateway, allowing resources within them to have internet access. 
 Private subnets are isolated and do not have direct internet access.
