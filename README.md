@@ -1,8 +1,10 @@
-# Terraform Learning from zero to hero 
+# Terraform Learning from Zero to Hero!!!
 
 # This labs were guided by Sandbox Yangon. 
 
-Lab Guide Instructions: Setting Up AWS Infrastructure with Terraform
+# Lab Guide Instructions
+
+Setting Up AWS Infrastructure with Terraform.
 
 # Lab Overview:
 
@@ -41,27 +43,40 @@ Basic understanding of AWS and Terraform.
 
 
 # Git Repository Description
+
 Repository Name: aws-terraform-infra
 
-# Description: This repository contains Terraform code for provisioning a basic AWS infrastructure. It sets up a Virtual Private Cloud (VPC) with public and private subnets spread across multiple availability zones. The setup includes an Internet Gateway, a public route table, and associations for the public subnets. The infrastructure is designed to provide a scalable and secure environment for deploying applications in AWS.
+# Description
+
+This repository contains Terraform code for provisioning a basic AWS infrastructure. It sets up a Virtual Private Cloud (VPC) with public and private subnets spread across multiple availability zones. The setup includes an Internet Gateway, a public route table, and associations for the public subnets. The infrastructure is designed to provide a scalable and secure environment for deploying applications in AWS.
+
 
 # Repository Structure:
 
-main.tf: Contains the primary Terraform configuration.
-variables.tf: Defines the variables used in the Terraform configuration.
-outputs.tf: (Optional) Defines the outputs for the Terraform configuration.
-README.md: Provides an overview and instructions for using the Terraform code.
+1. main.tf: Contains the primary Terraform configuration.
+2. variables.tf: Defines the variables used in the Terraform configuration.
+3. outputs.tf: (Optional) Defines the outputs for the Terraform configuration.
+4. README.md: Provides an overview and instructions for using the Terraform code.
+   
 
 # Usage 
 1. Clone the repo.
 2. Initialize Terraform.
-   # terraform init
-3. Review the execution plan
-   # terraform plan
-4. Apply the configuration
-   # terraform apply
-5. Destory the infrastructure when no longer needed:
-   # terraform destroy
+   
+   - terraform init
+
+4. Review the execution plan
+
+   - terraform plan
+
+6. Apply the configuration
+   
+   - terraform apply
+     
+8. Destory the infrastructure when no longer needed:
+
+   - terraform destroy
+     
 
 # Variables
 
